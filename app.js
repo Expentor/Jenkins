@@ -6,7 +6,7 @@ const app = express();
 
 // Define una ruta básica
 app.get('/', (req, res) => {
-  res.send('¡Adios Mundo!');
+  res.send('¡Hola Mundo!');
 });
 
 // Escucha en el puerto 3000
